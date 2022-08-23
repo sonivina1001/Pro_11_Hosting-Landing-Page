@@ -1,5 +1,5 @@
 * {
-  margin: 0%;
+  margin: auto;
   padding: 0%;
   max-width: 1700px;
 }
@@ -231,9 +231,10 @@ body {
   list-style: none;
   width: fit-content;
   flex-direction: column;
-  position: relative;
-  top: -1005px;
-  left: 315px;
+  position: absolute;
+  top: 2827px;
+  left: 320px;
+  border: 1px solid black;
 }
 
 .checks2 {
@@ -241,9 +242,10 @@ body {
   list-style: none;
   width: fit-content;
   flex-direction: column;
-  position: relative;
-  top: -1295px;
+  position: absolute;
+  top: 2827px;
   left: 670px;
+  border: 1px solid black;
 }
 
 .checks3 {
@@ -251,9 +253,10 @@ body {
   list-style: none;
   width: fit-content;
   flex-direction: column;
-  position: relative;
-  top: -1588px;
-  left: 1023px;
+  position: absolute;
+  top: 2827px;
+  left: 1020px;
+  border: 1px solid black;
 }
 .check {
   margin: 17px;
@@ -280,7 +283,7 @@ body {
   width: fit-content;
   margin: auto;
   position: relative;
-  top: -1000px;
+  top: -100px;
   color: #6b748c;
   font-family: Trebuchet MS, sans-serif;
 }
