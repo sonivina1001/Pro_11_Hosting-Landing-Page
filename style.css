@@ -59,14 +59,13 @@ body {
   font-family: Trebuchet MS, sans-serif;
   font-size: 50px;
   font-weight: bolder;
-  margin-top: 50px;
+  
 }
 
 .para1 {
   font-family: Trebuchet MS, sans-serif;
   font-size: larger;
   color: #3d4959;
-  margin: 20px 0px 15px 0px;
 }
 
 .btn1 {
@@ -150,22 +149,24 @@ body {
 }
 
 .blue-head {
-  color: white;
+  color: black;
   font-family: Trebuchet MS, sans-serif;
+  width: 100%;
+  
   font-size: 50px;
-  position: relative;
-  top: -500px;
+  position: absolute;
+  top: 2600px;
   text-align: center;
 }
 
 .A {
   display: flex;
-  justify-content: space-between;
-  width: fit-content;
-  margin: auto;
+  width: 1600px;
+  justify-content: center;
   height: 80vh;
-  position: relative;
-  top: -470px;
+  position: absolute;
+  top: 2700px;
+  left: 50px;
 }
 
 .B {
@@ -234,7 +235,6 @@ body {
   position: absolute;
   top: 2827px;
   left: 320px;
-  border: 1px solid black;
 }
 
 .checks2 {
@@ -245,7 +245,6 @@ body {
   position: absolute;
   top: 2827px;
   left: 670px;
-  border: 1px solid black;
 }
 
 .checks3 {
@@ -256,7 +255,6 @@ body {
   position: absolute;
   top: 2827px;
   left: 1020px;
-  border: 1px solid black;
 }
 .check {
   margin: 17px;
@@ -280,10 +278,10 @@ body {
 
 .end-card {
   display: flex;
-  width: fit-content;
-  margin: auto;
-  position: relative;
-  top: -100px;
+  width: 100%;
+  justify-content: center;
+  position: absolute;
+  top: 3700px;
   color: #6b748c;
   font-family: Trebuchet MS, sans-serif;
 }
@@ -295,6 +293,11 @@ body {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.endpos{
+  position: absolute;
+  top: 3950px;
 }
 
 .michael {
@@ -406,7 +409,7 @@ body {
 
 /* Media Query */
   
-@media screen and (max-width:320px ) {
+@media screen and (max-width:820px ) {
 
   * {
     margin: 0%;
@@ -429,12 +432,12 @@ body {
   .section1 {
     display: flex;
     flex-direction: row;
-    width: 1250px;
+    width: 1100px;
     list-style: none;
     position: absolute;
     top: 150px;
-    left: 0px;
-    justify-content: center;
+    left: 10%;
+    
   }
   
   .item {
@@ -446,22 +449,25 @@ body {
   
   .reg-btn {
     font-family: Trebuchet MS, sans-serif;
-    font-size: large;
+    font-size: 30px;
     color: white;
+    width: max-content;
     background: linear-gradient(180deg, #09c6f9 0%, #045de9 100%);
     padding: 10px 20px;
     border-radius: 20px;
     border-color: #178ef0;
     position: absolute;
     top: 50px;
-    left: 1000px;
+    left: 950px;
   }
   
   .first-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 1250px;
+    border: 1px solid red;
+    width: max-content;
+    margin-left: 45%;
     text-align: center;
     padding: 10px;
     position: relative;
@@ -528,10 +534,11 @@ body {
   .grid-container {
     display: flex;
     justify-content: space-around;
-    width: 1250px;
+    width: 150%;
     text-align: center;
     position: relative;
     top: 300px;
+    left: 5%;
   }
   
   .grid-head {
@@ -551,11 +558,12 @@ body {
   .grid-container2 {
     display: flex;
     justify-content: space-around;
-    width: 1250px;
+    width: 150%;
     margin-top: 50px;
     text-align: center;
     position: relative;
     top: 300px;
+    left: 5%;
   }
   
   .grid-head2 {
@@ -574,8 +582,8 @@ body {
   
   .blue-box {
     background: linear-gradient(180deg, #09c6f9 0%, #045de9 100%);
-    height: 120vh;
-    width: 1300px;
+    height: 600px;
+    width: 1276px;
     position: relative;
     z-index: -1;
     top: 350px;
@@ -586,28 +594,28 @@ body {
     color: black;
     font-family: Trebuchet MS, sans-serif;
     font-size: 50px;
-    width: 1250px;
+    width: 1276px;
+    justify-content: center;
     position: relative;
     top: -250px;
-    text-align: center;
+
   }
   
   .A {
     display: flex;
-    justify-content: space-around;
-    width: 1250px;
-    margin: auto;
-    height: 90vh;
+    justify-content: space-between;
+    width: 1200px;
+    height: fit-content;
     position: relative;
-    top: -200px;
-    margin: auto;
+    top: -220px;
   }
   
   .B {
     background-color: #fff;
     border-radius: 10px;
-    width: 40vh;
+    width: fit-content;
     margin: 10px;
+    padding: 20px;
   }
   
   .C {
@@ -697,7 +705,7 @@ body {
   
   .h-pos {
     position: absolute;
-    top: 4900px;
+    top: 4750px;
     left: 20px;
     width: 1200px;
     text-align: center;
@@ -709,9 +717,10 @@ body {
     font-size: 17px;
     position: absolute;
     width: 1200px;
-    top: 5050px;
+    top: 4850px;
     left: 20px;
     text-align: center;
+    margin-top: 20px;
   }
   
   .end-card {
@@ -782,7 +791,7 @@ body {
   .logo2 {
     position: absolute;
     top: 6000px;
-    left: 100px;
+    left: 50px;
     height: 40px;
   }
   
@@ -791,14 +800,15 @@ body {
     font-size: 20px;
     color: #6b748c;
     position: absolute;
-    top: 6050px;
-    left: 100px;
-  }
-  
-  .endA {
-    display: flex;
+    top: 6050px;  
     font-family: Trebuchet MS, sans-serif;
     width: fit-content;
+    position: absolute;
+    top: 6050px;
+    left: 50px;
+  }
+
+  .endA{
     position: absolute;
     top: 5950px;
     left: 400px;
@@ -840,11 +850,7 @@ body {
     left: 1000px;
   
   }
-  
-  
-  
-  
-}
+  }
 
 
 
