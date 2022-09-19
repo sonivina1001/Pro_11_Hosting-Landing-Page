@@ -140,7 +140,7 @@ body {
 
 .blue-box {
   background: linear-gradient(180deg, #09c6f9 0%, #045de9 100%);
-  height: 110vh;
+  height: 100vh;
   width: 1690px;
   position: relative;
   z-index: -1;
