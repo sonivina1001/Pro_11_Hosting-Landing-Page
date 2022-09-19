@@ -465,7 +465,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid red;
+    border: 1px solid black;
     width: max-content;
     margin-left: 45%;
     text-align: center;
